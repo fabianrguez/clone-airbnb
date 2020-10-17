@@ -7,13 +7,12 @@
   z-index: 100;
   width: 100%;
   background-color: #fff;
-  margin: 0 15px;
 }
 
 .header__logo {
   object-fit: contain;
   height: 100px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .header__center {
@@ -25,6 +24,7 @@
   border-radius: 999px;
   border: 1px solid lightgray;
   max-width: fit-content;
+  height: 30px;
 }
 
 .header__center > input {
@@ -36,5 +36,7 @@
 .header__right {
   display: flex;
   align-items: center;
-  margin-right: 15px;
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 80px;
 }
